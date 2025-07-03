@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tuckernuck Island Landowners Association (TILA)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      background-color: #f2f2f2;
+      justify-content: center;
+    }
+
+    nav a {
+      padding: 14px 20px;
+      display: inline-block;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+    }
+
+    .content {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .image-section {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .image-section img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .image-label {
+      font-style: italic;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    .login-screen {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-screen input {
+      margin-bottom: 10px;
+      padding: 8px;
+      font-size: 16px;
+    }
+
+    #siteContent {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="loginScreen" class="login-screen">
+    <h2>Member Login</h2>
+    <input type="text" id="username" placeholder="Username" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <button onclick="checkLogin()">Login</button>
+    <p id="loginError" style="color:red;"></p>
+  </div>
+
+  <div id="siteContent">
+    <header>
+      <h1>Tuckernuck Island Landowners Association (TILA)</h1>
+    </header>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#mission">Mission</a>
+      <a href="#history">History</a>
+      <a href="#bylaws">Bylaws</a>
+      <a href="#membership">Membership & Dues</a>
+      <a href="#news">News & Upcoming Meetings</a>
+      <a href="#tfa">TFA</a>
+      <a href="#directory">Member Directory</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="content" id="home">
+      <h2>Welcome to TILA</h2>
+      <p>The Tuckernuck Island Landowners Association (T.I.L.A.) is dedicated to preserving the natural beauty, heritage, and community spirit of Tuckernuck Island. We represent the interests of landowners, promote sustainable stewardship, and foster collaboration among residents to ensure the island’s future is protected due to its unique environment.</p>
+      <div class="image-section">
+        <!img src="T2.jpg" alt="Landowners 2025   Right click to copy" />
+        <!img src="T2.jpg" alt="Landowners 2025   Right click to copy" style="width: 100%; image-rendering: auto;" />
+
+        <img src="T2.jpg" alt="Landowners 2025" width="4800 height="2356">
+
+        <div class="image-label">Landowners 2025.   Right click to copy and save</div>
+
+      </div>
+    </div>
+
+
+
+    <div class="content" id="about">
+      <h2>About</h2>
+      <p>The Tuckernuck Island Landowners Association (TILA) is a community of dedicated landowners who share a commitment to preserving the natural beauty, ecological integrity, and selective development of Tuckernuck Island. Our association fosters a spirit of cooperation, transparency, and responsible stewardship among members, working collectively to address the needs and aspirations of our unique island community. Through active engagement, strategic planning, and respect for both tradition and innovation, TILA strives to ensure the long-term health and vitality of Tuckernuck Island for present and future generations."</p>
+    </div>
+
+    <div class="image-section">
+      <img src="T6.jpg" alt="East End" />
+      <div class="image-label">East End</div>
+    </div>
+
+    <div class="image-section">
+      <img src="T12.jpg" alt="West End" />
+      <div class="image-label">West End</div>
+    </div>
+
+    <div class="content" id="mission">
+      <h2>Mission</h2>
+      <p>Our mission is to protect the island’s resources, celebrate its cultural history, support initiatives to enhance the quality of life on the island amongst all landowners to coexist with nature. Presently TILA's focus is more homeowner oriented, with an emphasis on Tuckernuckers’ safety and health, landowner communication, and preserving and enjoying the island. An annual meeting of the Tuckernuck Island Landowners Association is usually held at the Firehouse on the 1st Sunday in July in combination with the Tuckernuck Firefighter’s Association (TFA). An elected TILA Executive Committee meets annually in July to discuss such issues as boat access to limited docks, road repair, erosion, health issues due to ticks and mosquitoes, natural resources, etc.
+
+      <ul>
+        <li>President – Beverly Dammin</li>
+        <li>Vice President – Caleb Cressman</li>
+        <li>Treasurer – Michael Taylor</li>
+        <li>Secretary – Priscilla French</li>
+      </ul>
+      		  <ul></ul>
+    </div>
+
+    <div class="image-section">
+      <img src="T5.jpg" alt="Brooks Landing" />
+      <div class="image-label">Brooks Landing</div>
+    </div>
+
+    <div class="image-section">
+      <img src="T13.jpg" alt="Sand Plain Grasslands" />
+      <div class="image-label">Sandplain Grasslands</div>
+    </div>
+
+    <div class="content" id="history">
+      <h2>History</h2>
+      <p><b>Edward Wayman Coffin</b> summarizes Tuckernuck history in a delightful review of the island called <b><em>TUCKERNUCK </em></b>with facts and misinformation for the uninformed.
+	  <p><a href="https://www.dropbox.com/scl/fi/3biofym4y9yrzey946bfl/Tuckernuck-Island-by-Edward-Wayman-Coffin.pdf?rlkey=3engbf6i56y0iuw6b0w6tgmz2&st=zfgb6vr9&dl=0" target="_blank">Tuckernuck Island by Edward Wayman Coffin(PDF)</a></p>
+	  <p>"Would you learn of Tuckanuckette,<br>
+	  My own homeland to the west,<br>
+	  Where wind and wave are carefree,<br>
+	  Where each new day is best?"<br>
+
+	  <p>(Part of a poem by Norene Coffin Dunham - 1921)
+ 	 <br>  <br>
+	<p><b>Beverly Dammin</b> has written a local island cookbook called <b><em>WHAT THE YOHO EATS</em></b> featuring recipes, personal anecdotes, and historical notes related to Tuckernuck Island and its community. The book is beautifully illustrated by her son Tucker. Many favorite, albeit unusual, recipes of landowners, past and present, are described in detail. The cookbook benefits the Tuckernuck Firefighters Association and is dedicated to Alfred Byron Coffin Jr., founder of the Tuckernuck Firefighters Association.
+
+<br><br>A few Recipes:<br>
+
+Nantucket Firemen's Supper: Includes thick pork chops, potatoes, and onions baked in milk.<br>
+Baking Powder Biscuits: Simple recipe for fluffy biscuits using flour, baking powder, and milk.<br>
+Byron's Eels: Fried eels coated in flour and salt.<br>
+Bluefish Pate: Poached bluefish mixed with herbs and spices, avoiding food processors for texture.<br>
+Wedding Chowder: A communal dish made with quohogs, potatoes, and canned milk, ideal for gatherings.
+
+<br><br>Seafood Dishes<br>
+
+Baked Bass with Egg Chive Sauce: Stuffed bass baked with vegetables and served with a creamy sauce.<br>
+Maya's Lobster Risotto: Lobster broth-based risotto with fresh herbs and optional lobster meat.<br>
+Sea Clam Pie: Clams and potatoes baked with a Bisquick crust.<br>
+Clam's Casino: Fresh clams topped with breadcrumbs and garlic butter, baked until crispy.
+
+<br><br>Soups and Chowders<br>
+
+Improviser's Bean Soup: A flexible recipe using leftover beans and vegetables.<br>
+Chowder by Bam Lafarge: Quahogs, bacon, and potatoes cooked in milk or cream.<br>
+Lobster Chowder: Rich chowder made with lobster juice and milk.
+
+<br><br>Breads and Breakfast<br>
+
+Baking Powder Biscuits: Quick and easy biscuits for breakfast.<br>
+Foccaccia: Pizza dough topped with olive oil and herbs.<br>
+Corn Meal Pancakes: Fluffy pancakes made with cornmeal and flour.
+
+<br><br>Desserts<br>
+
+ABC Coffee Cake: A simple coffee cake recipe with streusel topping.<br>
+Nini's Any Berry Tart: Tart crust filled with custard and topped with fresh berries.<br>
+Hot Molasses Cake: A moist cake made with molasses and spices.
+
+<br><br>Historical Context<br>
+
+The document includes historical notes about Tuckernuck Island, its settlers, and significant events from 1659 to 1991.
+Highlights the island's unique culture and community spirit.
+
+<br><br>Personal Anecdotes<br>
+
+Features personal stories from contributors about their experiences on Tuckernuck Island.
+Emphasizes the importance of family recipes and traditions in the community.
+
+<br><br>The cookbook serves as a tribute to Tuckernuck Island's culinary heritage and the bonds formed through shared meals and experiences..The cookbook serves as a tribute to Tuckernuck Island's culinary heritage and the bonds formed through shared meals and experiences.
+
+      <p><a href="https://www.dropbox.com/scl/fi/oboxiv8ltmeceh1vonc2q/What-the-Yoho-Eats.pdf?rlkey=ftbotrqb95m3uqw1je34d9zoo&st=fzbst2z1&dl=0" target="_blank">What the Yoho Eats by Beverly Dammin(PDF)</a></p>
+	 <br>
+	<p><b>Richard Limeburner</b> wrote in 2025 a multi-visual <b>History of the Tuckernuck Lagoon from 1661 to 2025</b> that shows mostly old charts of the Nantucket region drawn by historic European navigators, supplemented with more recent aerial, satellite, and personal photos and videos. The Lagoon has opened and closed a few times in the past to become South Pond (Tuckernuck, Ed Coffin, 1891 - 1929, pg 2 and 180) and recently closed again in March 2025. The Lagoon was the landowners primary protected mooring area from the 1960's until 2025 when it rapidly closed off due to migrating sand from the south. The Lagoon is now called South Pond as it was in the past. This collection of old charts and recent satellite images can be found at</p>
+      <p><a href="https://www.dropbox.com/scl/fi/ddpkxma8u1spiekdzo9q1/A-Brief-History-of-the-Tuckernuck-Lagoon-4_1_2025.pdf?dl=0" target="_blank">A Brief History of the Tuckernuck Lagoon 1661-2025(PDF)</a></p>
+    </div>
+
+    <div class="image-section">
+      <img src="T15.jpg" alt="Past Lagoon" />
+      <div class="image-label">Lagoon 2015</div>
+    </div>
+
+    <div class="image-section">
+      <img src="T16.jpg" alt="Present Lagoon" />
+      <div class="image-label">Lagoon April 1, 2025</div>
+    </div>
+
+    <div class="content" id="bylaws">
+      <h2>TUCKERNUCK ISLAND LANDOWNERS' ASSOCIATION BYLAWS</h2>
+      <p>The Tuckernuck Island Landowners Association (TILA) is governed by a set of bylaws that outline the structure, responsibilities, and procedures of the organization. These bylaws ensure transparency, fairness, and accountability in all our operations.</p>
+      <ul>
+        <li>Membership eligibility and responsibilities</li>
+        <li>Board structure and officer roles</li>
+        <li>Meeting schedules and voting procedures</li>
+        <li>Financial oversight and reporting</li>
+        <li>Amendment processes</li>
+		<div class="content" id="TUCKERNUCK ISLAND LANDOWNERS' ASSOCIATION BYLAWS">
+   	    <p><a href="https://www.dropbox.com/scl/fi/r7ha0trrihn1vbgkx5wwv/TILA-By-Laws.pdf?rlkey=mmaba7glsi6d6zbgp8bvsc8rp&e=1&st=clt42efa&dl=0" target="_blank">TILA Bylaws(PDF)</a></p>
+   	    </div>
+      </ul>
+
+    <div class="content" id="membership">
+      <h2>Membership & Dues</h2>
+      <p>To become a member of the Tuckernuck Island Landowners Association you must be a property landowner. Membership connects you with a community of neighbors committed to protecting and enhancing the island’s unique way of life. As a member, you’ll have a voice in key decisions, access to important updates, and opportunities to participate in meaningful initiatives.</p>
+      <ul>
+        <li>Representation in land use and conservation issues</li>
+        <li>Voting rights in annual meetings</li>
+        <li>Access to member-only news and events</li>
+        <li>Eligibility to serve on committees and the board</li>
+        <li>Cost TILA $20/yr  TFA $20/yr</li>
+
+      </ul>
+    </div>
+
+    <div class="content" id="news">
+      <h2>News & Upcoming Meetings</h2>
+      <p><b>ACCESS 2025</b> - Since the lagoon closed during March 2025 seasonal moorings have been moved to various locations along the north shore. A private dock was installed May 2025 just NW of Great Rock on land owned by the Hanson family.</p>
+      <div class="image-section">
+        <img src="Hansondock.jpg" alt="2025 Hanson dock" />
+        <div class="image-label">2025 Hanson dock</div>
+      </div>
+
+      <p><b>ACCESS 2025</b> - TILA hopes to deploy the TILA dock at Brooks Landing during summer 2025. Presently there are 16 moorings at Brooks Landing. The LaFarge family may allow landowners walking access over their land to boat moorings, but no vehicle parking will be allowed. Dropping off and picking up gear by vehicle will be allowed on the existing road, but no driving vehicles past Bam's boathouse nor over the dunes to the beach is permitted.  Please be aware that during a Northeast Storm no boats should be moored at Brooks Landing.</p>
+      <div class="image-section">
+        <img src="T19.jpg" alt="2025 Hanson dock" />
+        <div class="image-label">Brooks Landing June 2025</div>
+      </div>
+
+
+    </div>
+
+    <div class="content">
+      <h2>Summer Annual Meeting Info</h2>
+      <p>Date: Sunday, July 6, 2025<br>Time: 9:30 AM EST<br>Location: Ernie Parizeau deck</p>
+    </div>
+
+
+
+
+    <div class="content" id="tfa">
+      <h2>TFA - The Tuckernuck Firefighters Association</h2>
+      <p>The Tuckernuck Firefighters Association was created by Walter Barrett and Byron Coffin.</p>
+
+            <div class="image-section">
+	          <img src="Byron TFAh2.jpg" alt="Fire House No. 5 Tuckernuck" />
+	          <div class="image-label">Alfred Byron Coffin, Jr.</div>
+	        </div>
+
+
+
+		     <p>Firehouse No. 5 was built by landowners and the firetrucks and equipment were generously supported by the Nantucket Fire Department (NFD) Fire Chief Michael Cranston. We plan to soon clearly describe here how to respond to any emergency (first call 911) for a fire, a medical condition, and an accident or environmental issue. If a fire happened on Tuk, it could be devastating, Surprisingly, TILA issued 1) stiff brooms and 2) Indian 5 Gallon Poly Fire Pumps may be the best landowner first-defense for small fires. Getting Nantucket Fire Department professionals to Tuckernuck ASAP is of primary importance. A waterproof placemat-sized copy of the Tuckernuck Landowners 2025 Map above will soon be given to all landowners, and to the NFD and NPD to improve our emergency response preparations. For now you can right click the Landowner 2025 Map above to save a high resolution jpg image for your Tuckernuck home use. Please use this map to report any emergency location to 911.</p>
+
+
+            <div class="image-section">
+        <img src="TFA.jpg" alt="Fire House No. 5 Tuckernuck" />
+        <div class="image-label">Fire House No. 5 Tuckernuck </div>
+ 	        </div>
+
+
+    </div>
+
+
+
+
+
+    <div class="content">
+      <h2>Past News</h2>
+      <ul>
+        <li><b>Spring Beach Cleanup Recap – July 2024</b></li>
+        	<br><br>
+        <li><b>Erosion Monitoring Pilot Program Launched</b></li>
+        	<br><br>
+		<li> <b>Tuckernuck Tides </b>During 2013 R. Limeburner measured the sea surface variability with very precise pressure recorders, courtesy of the Woods Hole Oceanographic Institution (WHOI) at 8 locations around Tuckernuck. The semi-diurnal (12.4 hour) tide dominates the local movement of the sea surface around Tuckernuck. The wind speed and direction also have a strong influence on sea level, especially during storms with breaking waves when large amounts of sand are transported by strong currents. This results in extensive erosion and acretion of the shoreline in different areas. See <br>
+
+		<a href="https://www.whoi.edu/science/PO/coastal/Tuckernuck_Pressure/" target="_blank">Tidal Variability in Sea Level </a> </li>
+        	<br><br>
+        <li><b>Tuckernuck Land Trust (TLT) Educational walks</b></li>
+
+        <p>During summer months TLT educational walks are often given by landowners or invited guests to learn about the character and natural beauty of Tuckernuck Island. We show here a few talks by a unique, albeit opinionated, island educator, Henry Bancel LaFarge, giving a humorous 2013 ramble discussing Tuckernuck Island trees. (note, Bam's Tree Ramble videos are a 6 part series). </p>
+
+		<video controls> <source src="bam1.mp4" type="video/mp4"> </video>
+  		<p>Tuckernuck Trees Ramble by H. B. LaFarge July 2013 video 1 of 6.</p>
+		<br>
+		<video controls> <source src="bam2.mp4" type="video/mp4"> </video>
+  		<p>Tuckernuck Trees Ramble by H. B. LaFarge July 2013 video 2 of 6.</p>
+		<br>
+		<video controls> <source src="bam3.mp4" type="video/mp4"> </video>
+  		<p>Tuckernuck Trees Ramble by H. B. LaFarge July 2013 video 3 of 6.</p>
+	 <br>  <br>
+	<p><b>Beverly Dammin</b> opened the TILA annual meeting on July 7, 2013 with a prayer.
+      <p><a href="https://www.dropbox.com/scl/fi/95pzfapcuzhyakpg73gz3/TILA-prayer_20130707_Bev.mp4?rlkey=6n8o9bb5jg2f66evrog50w66q&st=mis9d18v&dl=0" target="_blank">TILA annual meeting on July 7, 2013 opening prayer(PDF)</a></p>
+	 <br>
+     </ul>
+    </div>
+
+
+		<div class="content" id="Download TILA Emergency Contacts">
+   	    <p><a href="https://www.dropbox.com/scl/fi/dd7jmu64tiyewxlkjlbzi/TILAContact2025.pdf?rlkey=nrud7gf5p8ibulirp7pgdla0a&st=gj2yt5lh&dl=0
+" target="_blank">TILA Emergency Contacts(PDF)</a></p>
+   	    </div>
+
+
+
+
+    <div class="image-section">
+      <img src="rl.jpg" alt="Otis Approval" />
+      <div class="image-label">TILA website compliments of Richard Limeburner 6/22/2025</div>
+      <p><!a href="https://whoi-my.sharepoint.com/" target="_blank">     </a></p>
+    </div>
+  </div>
+
+  <script>
+    function checkLogin() {
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+      const error = document.getElementById("loginError");
+
+      if (username === "eel" && password === "point") {
+        document.getElementById("loginScreen").style.display = "none";
+        document.getElementById("siteContent").style.display = "block";
+      } else {
+        error.textContent = "Incorrect username or password.";
+      }
+    }
+  </script>
+</body>
+</html>
